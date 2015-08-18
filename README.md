@@ -2,6 +2,10 @@
 
 Because tick follows tock.
 
+[![Build Status](https://drone.io/github.com/e-dard/tock/status.png)](https://drone.io/github.com/e-dard/tock/latest)
+[![GoDoc](https://godoc.org/github.com/e-dard/tock?status.svg)](http://godoc.org/github.com/e-dard/tock)
+
+
 tock provides a Ticker which is API-compatible with a time.Ticker, but also allows the caller to stop, restart, and adjust the duration with which the Ticker ticks.
 
 Receivers on the tick channel can continue to listen on the same channel after any of the tock.Ticker operations are carried out.
